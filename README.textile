@@ -1,0 +1,21 @@
+h1. Welcome to play-envers
+
+Play-envers is a module for the "Play! framework":http://www.playframework.org .
+
+h2. Installing the module
+
+* Using conf/dependencies.yaml and adding a dependency:
+
+bc. play -> play-envers 1.0
+
+* Using conf/application.conf and adding a module:
+
+bc. module.play-envers=${play.path}/modules/play-envers-1.0
+
+h2. Getting dependencies
+
+bc. play dependencies --sync
+
+h2. Configuring
+
+p. Nothing to configure, all required settings are done by the plugin and use the Hibernate Envers default settings.
