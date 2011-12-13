@@ -3,3 +3,5 @@
 *.pyc
 dist
 lib/*.*
+!.gitignore
+
