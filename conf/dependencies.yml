@@ -1,4 +1,4 @@
-self: play -> envers 0.1
+self: play -> play-envers 1.0
 
 require:
     - play
